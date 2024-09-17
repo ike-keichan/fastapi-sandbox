@@ -4,7 +4,7 @@ ENV PYTHONUNBUFFERED=1
 WORKDIR /src
 
 RUN pip install poetry
-COPY pyproject.toml* poetry.lock* ./
+COPY ruff.toml* pyproject.toml* poetry.lock* ./
 
 RUN poetry config virtualenvs.in-project true
 RUN if [ -f pyproject.toml ]; then poetry install --no-root; fi
