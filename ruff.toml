@@ -1,0 +1,17 @@
+# Pythonのバージョン
+target-version = "py312"
+
+# 行数
+line-length = 100
+
+
+[lint]
+# 適用するルール（セット）のリスト。
+select = ["E", "F", "W", "C", "N", "B", "I"]
+
+# 除外するルールのリスト
+ignore = ["B008", "E501"]
+
+# 対象から除外するファイル・ディレクトリ
+exclude = [".git", "__pycache__", "build", "dist", ".venv"]
+
