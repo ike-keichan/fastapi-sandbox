@@ -82,6 +82,6 @@ dbc:
 setup:
 	docker compose build
 	docker compose up -d --force-recreate
-	@sleep 7
+	@sleep 8
 	docker compose exec fastapi-sandbox poetry run python -m api.migrate_db
 	docker compose stop

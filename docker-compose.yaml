@@ -8,6 +8,8 @@ services:
       - 8000:8000
     environment:
       - WATCHFILES_FORCE_POLLING=true
+    depends_on:
+      - db
   db:
     image: mysql:8.0
     platform: linux/x86_64

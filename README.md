@@ -54,7 +54,7 @@ Docker Compose version v2.29.1-desktop.1
 ## Command
 
 主要なコマンドは以下の通りです。
-それ以外のコマンドの[詳細はこちら](./readme/02_COMMAND.md)。
+それ以外のコマンドの詳細は[こちら](./readme/02_COMMAND.md)。
 
 ### コンテナのビルド
 

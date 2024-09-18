@@ -2,7 +2,6 @@ from typing import List, Optional
 
 from fastapi import APIRouter, Depends, HTTPException
 
-# from sqlalchemy.orm import Session
 from sqlalchemy.ext.asyncio import AsyncSession
 
 import api.cruds.task.index as task_crud
